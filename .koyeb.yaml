@@ -1,0 +1,13 @@
+name: telegram-subfinder-bot
+dockerfile: Dockerfile
+build:
+  context: .
+env:
+  - name: API_ID
+    value: "22118129"
+  - name: API_HASH
+    value: "43c66e3314921552d9330a4b05b18800"
+  - name: BOT_TOKEN
+    value: "your_bot_token"
+  - name: LOGS_CHANNEL
+    value: "-1002843745742"
