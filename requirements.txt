@@ -1,3 +1,4 @@
+os
 pyrogram
 tgcrypto
 pyromod
